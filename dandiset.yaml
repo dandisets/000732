@@ -27,9 +27,8 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
-- {}
 dateCreated: '2023-12-11T22:42:22.603999+00:00'
-datePublished: '2023-12-23T16:19:07.310155+00:00'
+datePublished: '2023-12-23T20:17:07.385129+00:00'
 description: Recordings made at the Kosik lab, UCSB.
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
@@ -43,13 +42,13 @@ manifestLocation:
 name: Intrinsic activity in human brain organoid slice.
 protocol: []
 publishedBy:
-  endDate: '2023-12-23T16:19:07.310155+00:00'
-  id: urn:uuid:da765719-c886-4e73-bc68-572ff6a98d6b
+  endDate: '2023-12-23T20:17:07.385129+00:00'
+  id: urn:uuid:f276c266-3034-4175-bc07-0c92268a285f
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-23T16:19:07.310155+00:00'
+  startDate: '2023-12-23T20:17:07.385129+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:1aad0e4b-810a-40fd-b237-9ff710dc8a46
+  - id: urn:uuid:f630707c-a364-412b-9855-622c9e6bb025
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
