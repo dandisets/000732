@@ -289,15 +289,13 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-12-11T22:42:22.603999+00:00'
-datePublished: '2023-12-28T06:47:13.844187+00:00'
-description: "This data originates from several sources:\n\n - Human brain organoid
-  recordings:\n   - [Sharf et al. Nat. Commun. 2022](https://doi.org/10.1038/s41467-022-32115-4)\n
+datePublished: '2023-12-28T21:59:13.914123+00:00'
+description: "This data for this study consists of sourced and original data sets:\n
+  - Human brain organoid recordings (sourced):\n   - [Sharf et al. Nat. Commun. 2022](https://doi.org/10.1038/s41467-022-32115-4)\n
   \  - [Akarca et al. BioRxiv 2022](https://doi.org/10.1101/2022.03.09.483605)\n -
-  2D primary cortical cultures:\n   - [Yuan et al Nat. Commun. 2020](https://doi.org/10.1038/s41467-020-18620-4)
-  (also in Andreas Hierlemann's lab)\n - Organoid slices are from Ken Kosik's lab
-  at UCSB, with other work done in Andreas Hierlemann's lab at ETH\n - Murine neonatal
-  slice recordings from the somatosensory cortex were performed by Julian Bartram
-  in Andreas Hierlemann's lab at ETH"
+  Primary murine cortical culture recordings (sourced):\n   - [Yuan et al Nat. Commun.
+  2020](https://doi.org/10.1038/s41467-020-18620-4)\n - Acute neonatal slice recordings
+  from the murine somatosensory cortex (original)"
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000732/draft
@@ -311,13 +309,13 @@ name: Protosequences in human cortical organoids model intrinsic states in the d
   cortex
 protocol: []
 publishedBy:
-  endDate: '2023-12-28T06:47:13.844187+00:00'
-  id: urn:uuid:07dd309c-54f5-4413-8055-9a45f1e20430
+  endDate: '2023-12-28T21:59:13.914123+00:00'
+  id: urn:uuid:b043d9ac-b1cc-4144-a9cd-e86d1383f0f3
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-28T06:47:13.844187+00:00'
+  startDate: '2023-12-28T21:59:13.914123+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:093958ed-933d-4935-8e09-6016e4f416ba
+  - id: urn:uuid:464e834d-6a5a-4bc4-bf6d-5d98840fa0e6
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
