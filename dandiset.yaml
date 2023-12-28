@@ -7,11 +7,35 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 112811769196
+  numberOfFiles: 36
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Tal Sharf; Tjitse van der Molen (2023) Intrinsic activity in human brain
-  organoid slice (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+  - ElectricalSeries
+citation: Tal Sharf; Molen, Tjitse van der; Spaeth, Alex; Chini, Mattia; Bartram,
+  Julian; Dendukuri, Adi (2023) Protosequences in human cortical organoids model intrinsic
+  states in the developing cortex (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   identifier: 0000-0002-7899-2818
@@ -23,13 +47,41 @@ contributor:
 - affiliation: []
   identifier: 0000-0001-6147-542X
   includeInCitation: true
-  name: Tjitse van der Molen
+  name: Molen, Tjitse van der
   roleName:
   - dcite:Author
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Spaeth, Alex
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Chini, Mattia
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Bartram, Julian
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Dendukuri, Adi
+  roleName: []
+  schemaKey: Person
 dateCreated: '2023-12-11T22:42:22.603999+00:00'
-datePublished: '2023-12-23T20:17:07.385129+00:00'
-description: Recordings made at the Kosik lab, UCSB.
+datePublished: '2023-12-28T06:00:13.846726+00:00'
+description: "This data originates from several sources:\n\n - Human brain organoid
+  recordings:\n   - [Sharf et al. Nat. Commun. 2022](https://doi.org/10.1038/s41467-022-32115-4)\n
+  \  - [Akarca et al. BioRxiv 2022](https://doi.org/10.1101/2022.03.09.483605)\n -
+  2D primary cortical cultures:\n   - [Yuan et al Nat. Commun. 2020](https://doi.org/10.1038/s41467-020-18620-4)
+  (also in Andreas Hierlemann's lab)\n - Organoid slices are from Ken Kosik's lab
+  at UCSB, with other work done in Andreas Hierlemann's lab at ETH\n - Murine neonatal
+  slice recordings from the somatosensory cortex were performed by Julian Bartram
+  in Andreas Hierlemann's lab at ETH"
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000732/draft
@@ -39,16 +91,17 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000732/versions/draft/assets/
-name: Intrinsic activity in human brain organoid slice.
+name: Protosequences in human cortical organoids model intrinsic states in the developing
+  cortex
 protocol: []
 publishedBy:
-  endDate: '2023-12-23T20:17:07.385129+00:00'
-  id: urn:uuid:f276c266-3034-4175-bc07-0c92268a285f
+  endDate: '2023-12-28T06:00:13.846726+00:00'
+  id: urn:uuid:2d9a9932-f093-4bbe-865a-b37feeb4ff42
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-23T20:17:07.385129+00:00'
+  startDate: '2023-12-28T06:00:13.846726+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:f630707c-a364-412b-9855-622c9e6bb025
+  - id: urn:uuid:b316061f-8c26-4520-a487-421ea5482c80
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
