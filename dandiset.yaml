@@ -7,22 +7,38 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 112811769196
+  numberOfFiles: 36
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9606
+    name: Homo sapiens - Human
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - ElectrodeGroup
+  - ElectricalSeries
 citation: Molen, Tjitse van der; Spaeth, Alex; Chini, Mattia; Bartram, Julian; Dendukuri,
   Adi; Zhang, Zongren; Bhaskaran-Nair, Kiran; Petzold, Linda R.; Hansma, Paul K.;
   Teodorescu, Mircea; Hierlemann, Andreas; Hengen, Keith B.; Hanganu-Opatz, Ileana
-  L.; Kosik, Kenneth S.; Blauvelt, Lon; Glasauer, Stella M. K.; Guzman, Elmer; Buccino,
-  Alessio P.; Luna, Gabriel; Cheng, Zhuowei; Audouard, Morgane; Ranasinghe, Kamalini
-  G.; Kudo, Kiwamu; Nagarajan, Srikantan; Tovar, Kenneth R.; Akarca, Danyal; Dunn,
-  Alexander W. E.; Hornauer, Philipp J.; Ronchi, Silvia; Fiscella, Micele; Wang, Congwei;
-  Terrigno, Marco; Jagasia, Ravi; Vértes, Petra E.; Mierau, Susanna B.; Paulsen, Ole;
-  Eglen, Stephen J.; Astle, Duncan E.; Schröter, Manuel; Yuan, Xinyue; Obien, Marie
-  Engelene J.; Gong, Wei; Kikuchi, Tetsuhiro; Odawara, Aoi; Noji, Shuhei; Suzuki,
-  Ikuro; Takahashi, Jun; Frey, Urs; Sharf, Tal (2023) Protosequences in human cortical
-  organoids model intrinsic states in the developing cortex (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  L.; Kosik, Kenneth S.; Blauvelt, Lon; Sharf, Tal (2023) Protosequences in human
+  cortical organoids model intrinsic states in the developing cortex (Version draft)
+  [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   identifier: 0000-0001-6147-542X
@@ -45,31 +61,37 @@ contributor:
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0001-7513-1716
   includeInCitation: true
   name: Bartram, Julian
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0001-7350-868X
   includeInCitation: true
   name: Dendukuri, Adi
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0009-0001-7709-9980
   includeInCitation: true
   name: Zhang, Zongren
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0001-6855-8244
   includeInCitation: true
   name: Bhaskaran-Nair, Kiran
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0001-6251-6078
   includeInCitation: true
   name: Petzold, Linda R.
   roleName: []
   schemaKey: Person
 - affiliation: []
+  identifier: 0000-0002-0719-0615
   includeInCitation: true
   name: Hansma, Paul K.
   roleName: []
@@ -113,171 +135,171 @@ contributor:
   - dcite:DataManager
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Glasauer, Stella M. K.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Guzman, Elmer
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Buccino, Alessio P.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Luna, Gabriel
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Cheng, Zhuowei
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Audouard, Morgane
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Ranasinghe, Kamalini G.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Kudo, Kiwamu
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Nagarajan, Srikantan
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Tovar, Kenneth R.
   roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0002-5931-0295
-  includeInCitation: true
+  includeInCitation: false
   name: Akarca, Danyal
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Dunn, Alexander W. E.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Hornauer, Philipp J.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Ronchi, Silvia
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Fiscella, Micele
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Wang, Congwei
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Terrigno, Marco
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Jagasia, Ravi
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Vértes, Petra E.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Mierau, Susanna B.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Paulsen, Ole
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Eglen, Stephen J.
   roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0002-7042-5392
-  includeInCitation: true
+  includeInCitation: false
   name: Astle, Duncan E.
   roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0002-9347-9203
-  includeInCitation: true
+  includeInCitation: false
   name: Schröter, Manuel
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Yuan, Xinyue
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Obien, Marie Engelene J.
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Gong, Wei
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Kikuchi, Tetsuhiro
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Odawara, Aoi
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Noji, Shuhei
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Suzuki, Ikuro
   roleName: []
   schemaKey: Person
 - affiliation: []
-  includeInCitation: true
+  includeInCitation: false
   name: Takahashi, Jun
   roleName: []
   schemaKey: Person
 - affiliation: []
   identifier: 0000-0003-3773-2822
-  includeInCitation: true
+  includeInCitation: false
   name: Frey, Urs
   roleName: []
   schemaKey: Person
@@ -289,7 +311,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-12-11T22:42:22.603999+00:00'
-datePublished: '2023-12-28T21:59:13.914123+00:00'
+datePublished: '2023-12-28T22:11:13.916117+00:00'
 description: "This data for this study consists of sourced and original data sets:\n
   - Human brain organoid recordings (sourced):\n   - [Sharf et al. Nat. Commun. 2022](https://doi.org/10.1038/s41467-022-32115-4)\n
   \  - [Akarca et al. BioRxiv 2022](https://doi.org/10.1101/2022.03.09.483605)\n -
@@ -309,13 +331,13 @@ name: Protosequences in human cortical organoids model intrinsic states in the d
   cortex
 protocol: []
 publishedBy:
-  endDate: '2023-12-28T21:59:13.914123+00:00'
-  id: urn:uuid:b043d9ac-b1cc-4144-a9cd-e86d1383f0f3
+  endDate: '2023-12-28T22:11:13.916117+00:00'
+  id: urn:uuid:bec3e68b-b01e-4f67-8b02-4dc95e4a09fd
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-28T21:59:13.914123+00:00'
+  startDate: '2023-12-28T22:11:13.916117+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:464e834d-6a5a-4bc4-bf6d-5d98840fa0e6
+  - id: urn:uuid:97673df6-1f62-43b1-a953-ca136322df4b
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
